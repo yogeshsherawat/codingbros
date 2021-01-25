@@ -1,0 +1,77 @@
+body{
+    background: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
+    background-size:cover;
+    font-family: sans-serif;
+    
+
+    
+}
+
+.titleH1{
+    color:white;
+    text-align: center;
+    font-size: 7rem;
+
+}
+.titleH1:hover{
+     color:black;
+}
+.card{
+    background:transparent;
+    margin-left: 5rem;
+}
+
+.card .card-image{
+    
+    width: 200px;
+    display: block;
+    height: auto;
+    border:2px solid black;
+    border-radius: 10rem;
+
+}
+
+
+.card .card-image:hover{
+    transform: scale(1.2,1.2);
+    box-shadow: 5px 10px black;
+    transition-duration: 1000ms;
+}
+.textCard{
+    display: inline-block;
+    margin-left: 1rem;
+    position: relative;
+    bottom:20px;
+}
+
+.tcw{
+    color:white;
+    display: block;
+}
+
+
+
+
+
+@media only screen and (max-width:768px){
+
+.titleH1{
+    font-size: 4rem;
+}    
+
+
+.card .card-image{
+    display: inline;
+    height: auto;
+    width: 60%;
+    margin-left:20%;
+    
+}
+.textCard{
+    display: block
+}
+.tcw{
+    text-align: center;
+}
+
+}
